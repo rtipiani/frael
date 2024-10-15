@@ -10,6 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.2"
+    "'": "file:awesome.me/kit-fd81123249@latest'",
+    "@astrojs/tailwind": "^5.1.2",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "astro": "^4.16.2",
+    "tailwindcss": "^3.4.13"
   }
 }
