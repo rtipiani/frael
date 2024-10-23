@@ -76,6 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Manejo del comportamiento del navbar en el scroll
     if (navbar) {
         function handleScroll() {
+            // Solo agregar clases si el scroll es mayor a 50px
             if (window.scrollY > 50) {
                 navbar.classList.add('fixed', 'top-0', 'w-full', 'bg-white', 'shadow-md');
                 document.body.style.marginTop = `${navbar.offsetHeight}px`; // Evitar superposición de contenido
@@ -85,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
 
+        // Agregar el evento de scroll para manejar el comportamiento del navbar
         window.addEventListener('scroll', handleScroll);
     }
 });
