@@ -38,7 +38,6 @@
         const navbar = document.getElementById('main-navbar');
         const originalPosition = navbar.offsetTop;
 
-        // Fijar la barra de navegación al hacer scroll
         window.addEventListener('scroll', function() {
             if (window.pageYOffset > originalPosition) {
                 navbar.classList.add('fixed', 'top-0', 'bg-white', 'shadow-lg');
